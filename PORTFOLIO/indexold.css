@@ -1,0 +1,75 @@
+ :root {
+    --background-color: #efe7e5;
+    --text-color: black;
+}
+
+
+/* Style pour le hero banner */
+.jumbotron {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+  }
+  
+  /* Style pour les sections */
+  .container {
+    margin-top: 50px;
+  }
+  
+  /* Style pour les cartes de vidéos */
+  .card {
+    margin-bottom: 30px;
+  }
+  
+  /* Style pour le formulaire de contact */
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Style pour le pied de page */
+  footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+
+
+  /* Style pour les cartes de vidéos */
+.card {
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Style pour les liens */
+  a {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: #007bff;
+  }
+ 
+  .image-left {
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+ .image-left:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Style pour les liens */
+  a {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: #007bff;
+  };

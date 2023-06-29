@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tout les Projets Ecole</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="indexold.css">
+</head>
+<body>
+    <main>
+        <nav>
+        
+        
+            <h1><span class="material-symbols-outlined">
+                magic_button
+                </span>
+                Nader El Ashry
+            </h1>
+            <ul>
+                <li>
+                    <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item"> 
+                    <a class="nav-link" href="profil.html">Profil</a>
+                </li>
+                <li class="nav-item"> 
+                    <a class="nav-link" href="bts.html">BTS SIO</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="projet.html">Ecole</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="entreprise.html">Entreprise</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="veilletech.html">Veille Technologique</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="veillejuridique.html">Veille Juridique</a>
+                </li> -->
+                
+    
+            </ul>
+    </main>
+    <nav>
+        
+        <ul>
+            <li id="dark-light-mode"  onclick="changeDarkMode()">Dark mode</li>
+        </ul>
+
+
+///////////
+
+<!-- Section de portfolio -->
+<section class="container mt-5">
+    <h2 class="text-center">Projet AP1, AP2 </h2>
+    <p class="text-center">Découvrez quelques-uns de mes travaux récents</p>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <a href="docs/Projet AP1.docx " target="_blank">Cliquez ici pour télécharger le fichier PDF</a>
+          <img  src="./img/L_AUBERGE.png"  alt="Projet 1" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Projet 1</h5>
+            <p class="card-text">L'Auberge</p>
+            <a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FNader7575%2Faubjeun%2Fmain%2FProjet%2520AP1.docx&wdOrigin=BROWSELINK" class="btn btn-primary">En savoir plus</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <a href="docs/GSB.docx"target="_blank">Cliquez ici pour télécharger le fichier PDF</a></a>
+          <img src="data:image/jpeg;base64,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" alt="Projet 2" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Projet 2</h5>
+            <p class="card-text">GSB</p>
+            <a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FNader7575%2Fgsssb%2Fmain%2FGSB.docx&wdOrigin=BROWSELINK" class="btn btn-primary">En savoir plus</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <a href="docs/M2L (2).docx"target="_blank">Cliquez ici pour télécharger le fichier PDF</a></a>
+          <img src="https://romguillon4.files.wordpress.com/2013/09/mdl.png" alt="Projet 3" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Projet 2</h5>
+            <p class="card-text">M2L</p>
+            <a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FNader7575%2FM2L%2Fmain%2FM2L%2520(2).docx&wdOrigin=BROWSELINK" class="btn btn-primary">En savoir plus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+  </section>
+
+    <!-- Section TP -->
+    <section class="container mt-5">
+      <h2 class="text-center">Tp Projet</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <a href="docs/Espace Membres" target="_blank">Cliquez ici pour télécharger le fichier PDF</a>
+            <img src="https://cdn.pixabay.com/photo/2016/09/16/09/20/books-1673578_1280.png" alt="Vidéo 1" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Tp 1 Bibliothèque</h5>
+              <a href="docs/Espace Membres/inscription.php" class="btn btn-primary">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <a href="docs/TP_GLPI.docx" target="_blank">Cliquez ici pour télécharger le fichier PDF</a>
+            <img src="data:image/png;base64,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" alt="Vidéo 2" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Tp 2 GLPI </h5>
+              <a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FNader7575%2FTPGLPI2%2Fmain%2FTP_GLPI.docx&wdOrigin=BROWSELINK" class="btn btn-primary">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-md-4">
+          <div class="card">
+            <img src="video3.jpg" alt="Vidéo 3" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Titre de la vidéo 3</h5>
+              <a href="https://www.youtube.com/watch?v=video3" class="btn btn-primary">Voir la vidéo</a>
+            
+        </div>
+    </div> -->
+  </div>
+</div>
+</section>
+
+
+    <!-- </nav>
+<section class="images">
+    <div class="image-card">
+        <div class="image-left">
+            <img src="./img/L_AUBERGE.png" alt="Auberge de jeunesse">
+        </div>
+        <div class="image-right">
+            <h1>
+                <span class="material-symbols-outlined">
+                    arrow_drop_down
+                    L'Auberge 
+                    </span>
+               
+                    
+            </h1>
+        <p>
+            <span class="material-symbols-outlined">
+                minimize
+                
+            </span>
+             Création d'un site pour un projet en groupe AP1
+                    Langages : HTML5/CSS3 <br>
+             
+                    <span class="material-symbols-outlined">
+                        minimize
+                        
+                    </span>
+                      Mise en place d'un site e-commerce
+                     
+        </p>
+            
+        </div>
+    </div>
+
+    <div class="image-card">
+        <div class="image-left">
+            <img src="https://cdn.pixabay.com/photo/2016/09/16/09/20/books-1673578_1280.png" alt="Bibliothéque">
+        </div>
+        <div class="image-right">
+            <h1>
+                <span class="material-symbols-outlined">
+                    arrow_drop_down
+                    Projet Bibliotheque
+                    </span>
+               
+            </h1>
+            <p>
+                <span class="material-symbols-outlined">
+                    minimize
+                    
+                </span>
+                Création d'un site pour un TP Projet Bibliothèque Langages : HTML5/CSS3/Bootstrap Javascript/PHP </p>   
+               
+                
+               <p>
+                <span class="material-symbols-outlined">
+                    minimize
+                    
+                </span>
+                 Mise en place d'un site Bibliothécaire </p>
+              
+
+               <p>
+                <span class="material-symbols-outlined">
+                    minimize
+                    
+                </span>
+                créer une interface utilisateur on utilisant html CSS bootsrap pour afficher les résultat de recherche et permettre à l'utilisateur de s'inscrire ou se connecter </p> 
+
+               <p>
+                <span class="material-symbols-outlined">
+                    minimize
+                    
+                </span>
+                 Utilisation de javascript pour la récuperation des livres</p>
+
+               <p>
+                <span class="material-symbols-outlined">
+                    minimize
+                    
+                </span> 
+                créer une classe utilisateur dans php qui va stocker les informations nécessaire pour gérer l'inscription la connexion et les infos personnel de l'utilisateur </p>
+
+               <p>
+                <span class="material-symbols-outlined">
+                    minimize
+                    
+                </span>
+                Dans php créer une fonction livre qui va gerer les fonction nécessaire pour gerer les livres </p> 
+
+               <p>
+                <span class="material-symbols-outlined">
+                    minimize
+                    
+                </span>
+                utilisation de MYSQL pour stocker les informations</p>
+            
+
+            
+        </div>
+    </div>
+
+    <div class="image-card">
+        <div class="image-left">
+            <img src="https://romguillon4.files.wordpress.com/2013/09/mdl.png" alt="Ap2">
+            <img src="data:image/jpeg;base64,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" alt="">
+        </div>
+        <div class="image-right">
+            <h1>
+                <span class="material-symbols-outlined">
+                    arrow_drop_down
+                    M2L ET GSB
+                    </span>
+            </h1>
+            <p>
+                <span class="material-symbols-outlined">
+                    minimize
+                    
+                </span>
+                La Maison des Ligues de Lorraine (M2L) a pour mission de fournir des espaces et des services aux différentes ligues sportives régionales et à d’autres structures hébergées. La M2L est une structure financée par le Conseil Régional de Lorraine dont l'administration est déléguée au Comité Régional Olympique et Sportif de Lorraine (CROSL).
+
+                La société M2L nous sollicite pour superviser l'infrastructure et les équipements informatiques. Nous avons donc mis en place le projet Superviz
+                Pour des raisons de sécurité et de propagations de virus, M2L voudrait une solution de sécurité. Quant à ce projet il s'agit du projet Vélanne.
+            </p>
+
+            <p>
+                <span class="material-symbols-outlined">
+                    minimize
+                    
+                </span>
+                Le laboratoire Galaxy Swiss Bourdin (GSB) est le fruit de la fusion entre la grande entreprise américaine PharmaGalax, spécialisée dans la recherche sur les maladies virales comme le VIH(SIDA) et les hépatites, et le conglomérat européen Bourdin, qui se concentre sur les médicaments conventionnels. Ce regroupement a été réalisé en 2009 pour devenir le leader de l'industrie pharmaceutique. 
+                Le siège administratif de cette nouvelle entité, PharmaGalax-Bourdin Europe, a été établi à Paris.
+            </p>
+        </div>
+    </div>
+
+    <div class="image-card">
+        <div class="image-left">
+            <img src="data:image/png;base64,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" alt="">
+        </div>
+        <div class="image-right">
+            <h1>
+                <span class="material-symbols-outlined">
+                arrow_drop_down
+                GLPI
+                </span>
+            </h1>
+            <p>
+                <span class="material-symbols-outlined">
+                    minimize
+                    
+                </span>
+            C'est un logiciel libre de gestion des services informatiques et de gestion des services d'assistance . Cette solution libre est éditée en PHP et distribuée sous licence GPL.
+            En tant que technologie libre, toute personne peut exécuter, modifier ou développer le code qui est libre. De ce fait, les contributeurs peuvent participer à l'évolution du logiciel en soumettant des modules supplémentaires libre et open source, sur github.
+            </p>
+        </div>
+    </div>
+
+
+    
+
+</section>
+     -->
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="profil.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+   
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="indexold.css">
+   
+
+
+
+</head>
+
+<body>
+    
+    <nav>
+        
+        <h1><span class="material-symbols-outlined">
+            magic_button
+            </span>
+            Nader El Ashry
+        </h1>
+        <ul>
+            <li>
+                <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item"> 
+                <a class="nav-link" href="profil.html">Profil</a>
+            </li>
+            <li class="nav-item"> 
+                <a class="nav-link" href="bts.html">BTS SIO</a>
+            </li>
+             <li class="nav-item">
+                <a class="nav-link" href="projet.html">Ecole</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="entreprise.html">Entreprise</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="veilletech.html">Veille Technologique</a>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="veillejuridique.html">Veille Juridique</a>
+            </li> -->
+
+        </ul>
+    </nav>
+
+    <nav>
+        
+        <ul>
+            <li id="dark-light-mode"  onclick="changeDarkMode()">Dark mode</li>
+        </ul>
+
+    </nav>
+<!--     
+    <h1>Tableau de Synthèse</h1>
+        <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <a href="docs/Projet AP1.docx " target="_blank">Cliquez ici pour télécharger le fichier PDF</a>
+                <img  src=""  alt="Projet 1" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Projet 1</h5>
+                  <p class="card-text">L'Auberge</p>
+                  <a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FNader7575%2Faubjeun%2Fmain%2FProjet%2520AP1.docx&wdOrigin=BROWSELINK" class="btn btn-primary">En savoir plus</a>
+                </div>
+              </div>
+            </div>
+    
+    
+    
+
+<h3>A propos du stage </h3>
+     <p> J'ai effectuée mon stage au sein de l'entreprise "E.Leclerc" pendant deux mois. Il s'agit d'un Hypermarché </p>
+     
+     <h2>Documentation </h2>
+     <div class="col-md-4">
+        <div class="card">
+          <img src="data:image/png;base64,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" alt="Vidéo 3" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Titre de la vidéo 3</h5>
+            <a href="https://www.youtube.com/watch?v=video3" class="btn btn-primary">Voir la vidéo</a>
+          
+    </div> -->
+
+    <section>
+        
+        <h1>
+            Tableau de synthèse
+                
+
+                
+           </h1>
+        
+        
+         
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <a href="docs/tbsyn.pdf" target="_blank">Cliquez ici pour télécharger le fichier PDF</a>
+              <img  src="img/tbsyn.png"  alt="Projet 1" class="card-img-top">
+              <div class="card-body">
+             <a href="docs/tbsyn.pdf" class="btn btn-primary">En savoir plus</a>
+              </div>
+            </div>
+          </div>
+          
+    </section>
+    <h1> A propos du Stage </h1>
+    <p>J'ai effectuée mon Stage au sein de l'entreprise E.Leclerc "" pendant deux mois. Il s'agit d'un Hypermarché trés connue.
+
+    </p>
+    <section>
+        
+        <h1>
+            
+                Documentation
+                
+
+                
+           </h1>
+        
+      
+         
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <a href="docs/stag.docx" target="_blank">Cliquez ici pour télécharger le fichier PDF</a>
+              <img  src="./img/download.png"  alt="Projet 1" class="card-img-top">
+              <div class="card-body">
+             <a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FNader7575%2FPORTFOLIO-%2Fmain%2Fdocs%2Fstag.docx&wdOrigin=BROWSELINK" class="btn btn-primary">En savoir plus</a>
+              </div>
+            </div>
+          </div>
+          
+    </section>
+     <script src="script.js"></script>

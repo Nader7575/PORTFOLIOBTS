@@ -1,0 +1,139 @@
+<!-- <!DOCTYPE html> -->
+<!-- <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="indexold.css">
+
+</head>
+<body>
+    <nav>
+        
+        
+        <h1><span class="material-symbols-outlined">
+            magic_button
+            </span>
+            Nader El Ashry
+        </h1>
+        <ul>
+            <li>
+                <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item"> 
+                <a class="nav-link" href="profil.html">Profil</a>
+            </li>
+            <li class="nav-item"> 
+                <a class="nav-link" href="bts.html">BTS SIO</a>
+            </li>
+             <li class="nav-item">
+                <a class="nav-link" href="projet.html">Ecole</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="?p=projetsEntreprise">Entreprise</a>
+            </li> -->
+            <li class="nav-item">
+                <a class="nav-link" href="veilletech.html">Veille Technologique</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="veillejuridique.html">Veille Juridique</a>
+            </li>
+            
+
+        </ul>
+    </nav>
+    <nav>
+        
+        <ul>
+            <li id="dark-light-mode"  onclick="changeDarkMode()">Dark mode</li>
+        </ul>
+
+    </nav>
+
+    <section>
+        
+        <h1>
+            <span class="material-symbols-outlined">
+                sync_alt
+                En quoi consiste la veille Juridique ?
+                </span>
+
+                
+           </h1>
+        
+        <p>La veille juridique consiste à se renseigner continuellement sur l'évolution du cadre législatif. En informatique, celle-ci traite en particulier de la protection des données. En effet, il s'agit d'un domaine où celles-ci sont très importantes pour les entreprises mais également les personnes concernées par ces données.
+         Elles sont sensibles et peuvent être utilisés à mauvais essecient ou porter atteinte à leur vie privée.</p>
+         
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FNader7575%2Fga-feedly%2Fmain%2Fen%2520quoi%2520consiste%2520la%2520veille%2520juridique.docx&wdOrigin=BROWSELINK" target="_blank">Cliquez ici pour télécharger le fichier PDF</a>
+              <img  src="data:image/png;base64,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"  alt="Projet 1" class="card-img-top">
+              <img src="data:image/png;base64,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" alt="">
+              <div class="card-body">
+             <a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FNader7575%2Fga-feedly%2Fmain%2Fen%2520quoi%2520consiste%2520la%2520veille%2520juridique.docx&wdOrigin=BROWSELINK" class="btn btn-primary">En savoir plus</a>
+              </div>
+            </div>
+          </div>
+          
+    </section>
+
+    <section>
+        
+        <h1>
+            <span class="material-symbols-outlined">
+                sync_alt
+                Google Analytics
+                </span>
+         </h1>
+      
+        <p>Ma veille juridique principale porte sur Google Analytics.</p>
+
+        <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FNader7575%2Fgoogle-anaytics%2Fmain%2FVeille%2520juridique%2520-%2520Google%2520Analytics.docx&wdOrigin=BROWSELINK" target="_blank">Cliquez ici pour télécharger le fichier PDF</a>
+                <img  src="https://cdn.pixabay.com/photo/2018/08/08/21/48/interface-3593269_1280.png"  alt="Projet 1" class="card-img-top">
+                <div class="card-body">
+               <a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FNader7575%2Fgoogle-anaytics%2Fmain%2FVeille%2520juridique%2520-%2520Google%2520Analytics.docx&wdOrigin=BROWSELINK" class="btn btn-primary">En savoir plus</a>
+                </div>
+              </div>
+            </div>
+    </section>
+
+    <section>
+
+        <h1>
+            <span class="material-symbols-outlined">
+                sync_alt
+                Les cookie
+                </span>
+            </h1>
+        
+        <p>
+            <span class="material-symbols-outlined">
+                cookie
+                </span>
+            J'ai choisi de faire une veille juridique secondaire sur les cookies.</p>
+
+            
+        <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FNader7575%2Fcookie%2Fmain%2FVeille%2520juridique%2520-%2520Les%2520Cookies.docx&wdOrigin=BROWSELINK" target="_blank">Cliquez ici pour télécharger le fichier PDF</a>
+                <img  src="https://arqeetech.com/Portfolio-Kim-Laugaudin/images/cookie.jfif"  alt="Projet 1" class="card-img-top">
+                <div class="card-body">
+               <a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FNader7575%2Fcookie%2Fmain%2FVeille%2520juridique%2520-%2520Les%2520Cookies.docx&wdOrigin=BROWSELINK" class="btn btn-primary">En savoir plus</a>
+                </div>
+              </div>
+            </div>
+    </section>
+   
+</body>
+<script src="script.js"></script>
+</html> 

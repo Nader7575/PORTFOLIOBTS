@@ -1,0 +1,82 @@
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F8F8;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, section, footer {
+    display: block;
+}
+
+header {
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #EEE;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards {
+    width: 250px;
+    margin: 20px;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    box-shadow: 0 0 200px;
+}
+
+.cards{
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+  }
+  
+.cards:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+.enlarge {
+    transform: scale(1.2) translateX(-10px) translateY(-10px);
+    z-index: 1;
+}
+
+
+  .logout{
+    color: #ffffff;
+    background-color: #2d3748;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    box-shadow: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .logout:hover {
+    background-color: #4a5568;
+    cursor: pointer;
+  }
+
+  
+  
